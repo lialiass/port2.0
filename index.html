@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+  <head>
+    <meta
+      name="description"
+      content="Portfolio créé par Elias Kirouani. Etudiant en Gestion des Entreprises et des Administrations"
+    />
+    <title>
+      Portfolio | Elias Kirouani - Étudiant en Gestion des Entreprises et des
+      Administrations
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta creator="Elias Kirouani" />
+    <meta charset="utf-8" />
+    <link rel="sitemap" type="application/xml" href="../sitemap.xml" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="overflow-hidden">
+    <section id="loader">
+      <div id="loader-container">
+        <span>E</span>
+        <span>K</span>
+      </div>
+    </section>
+    <main>
+      <header class="header">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" data-nw-href="#homeScreen" role="button"
+              >EK</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a data-nw-href="#aboutScreen" class="nav-link" role="button"
+                    >À propos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-nw-href="#competencesScreen"
+                    class="nav-link"
+                    role="button"
+                    >Compétences</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-nw-href="#qualificationsScreen"
+                    class="nav-link"
+                    role="button"
+                    >Diplômes</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-nw-href="#portfolioScreen"
+                    class="nav-link"
+                    role="button"
+                    >Projets professionnels</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-nw-href="#referencesScreen"
+                    class="nav-link"
+                    role="button"
+                    >Parcours d'apprentissage</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-nw-href="#contactScreen"
+                    class="nav-link"
+                    role="button"
+                    >Me contacter</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="ressources/images/download/CV.pdf"
+                    target="_blank"
+                    class="nav-link"
+                    >CV <i class="fa fa-download"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- HOME -->
+      <section class="screen">
+        <div
+          class="screen 2backgroundImage 2clipInvertDownRectangle"
+          id="homeScreen"
+        >
+          <section id="home-paralax">
+            <!--	  			<img src="./ressources/images/fond.jpg" id='fond'>
+	  			<img src="./ressources/images/parachutist.png" id='parachutist'>
+ 	  			<img src="./ressources/images/moi.png" id='trees'>
+ -->
+          </section>
+          <div id="homeContent">
+            <h1 id="home_name">Kirouani Elias</h1>
+            <p id="home_status">
+              Étudiant en Gestion des Entreprises et des Administrations
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About me -->
+      <section class="screen" id="aboutScreen">
+        <div class="spacermenu"></div>
+        <h1 class="sectionTitle h1-spacer-under">À propos</h1>
+        <div class="screenCenterContent container">
+          <div class="row">
+            <div class="pic_container col-md-1">
+              <div class="picContent">
+                <span class="pic_back pic_element"></span>
+                <div id="profil_pic" class="pic_element"></div>
+              </div>
+            </div>
+
+            <div id="about_p_container" class="col-md">
+              <nav class="btn_nav">
+                <ul>
+                  <li
+                    data-nw-id-target="about_presentation_p"
+                    data-nw-classGroup="about_p"
+                    class="js_show_btn selected_btn"
+                  >
+                    Présentation
+                  </li>
+                  <li
+                    data-nw-id-target="about_languages_p"
+                    data-nw-classGroup="about_p"
+                    class="js_show_btn"
+                  >
+                    Langues
+                  </li>
+                  <li
+                    data-nw-id-target="about_softskills_p"
+                    data-nw-classGroup="about_p"
+                    class="js_show_btn"
+                  >
+                    Soft skills
+                  </li>
+                  <li
+                    data-nw-id-target="about_hobbies_p"
+                    data-nw-classGroup="about_p"
+                    class="js_show_btn"
+                  >
+                    Passions
+                  </li>
+                </ul>
+              </nav>
+              <div class="box_style about_p" id="about_presentation_p">
+                <p class="p-spacer-under">
+                  Je m'appelle Elias Kirouani , et je suis étudiant en
+                  Bachelor à l'Université de la Sorbonne Paris Nord, où je me
+                  spécialise en gestion d'entreprise et administration. Je suis
+                  quelqu'un d'organisé, polyvalent et pugnace, toujours prêt à
+                  relever de nouveaux défis. Au cours de ma formation, j'ai
+                  acquis des connaissances solides en analyse financière, ce qui
+                  me permet de comprendre et d'évaluer les aspects financiers
+                  des entreprises avec précision.
+                </p>
+                <p>
+                  Si vous souhaitez en apprendre plus sur moi, ou me contacter,
+                  n'hésitez plus, vous pouvez explorer ce site ou télécharger
+                  mon CV ! :)
+                </p>
+              </div>
+              <div class="box_style about_p hidden" id="about_languages_p">
+                <div>
+                  <img
+                    class="flagImage"
+                    src="ressources/images/FR.png"
+                    alt="Français"
+                  />
+                  <h3>Français</h3>
+                  <p>Langue Maternelle + Projet Voltaire</p>
+                </div>
+                <div>
+                  <img
+                    class="flagImage"
+                    src="ressources/images/uk.png"
+                    alt="Anglais"
+                  />
+                  <h3>Anglais</h3>
+                  <p>Cambridge Assessment IGCSE Frist Language (Juin 2021)</p>
+                </div>
+                <div>
+                  <img
+                    class="flagImage"
+                    src="ressources/images/CH.png"
+                    alt="Chinois"
+                  />
+                  <h3>Chinois</h3>
+                  <p>Niveau HSK3</p>
+                </div>
+              </div>
+              <div class="box_style about_p hidden" id="about_softskills_p">
+                <ul>
+                  <li>
+                    <h3>- Intelligence relationnelle - </h3>
+                    <p class="p-spacer-under"></p>
+                    Je suis sociable, capable de former des relations 
+                    profondes et durables. Enthousiaste et volontaire, j’ai la capacité 
+                    de guider et de motiver les autres. J’ai participé au module extra-universitaire 
+                    de « Gestion des conflits » et de « Non-violence » pour améliorer les relations 
+                    personnelles et professionnelles, renforcer la coopération et la collaboration, et 
+                    contribuer à une meilleure compréhension mutuelle dans divers contextes sociaux.
+                  </li>
+                  <li>
+                    <h3>- Intelligence logico-mathématique - </h3>
+                    <p class="p-spacer-under"></p>
+                    La rigueur est l'un de mes principaux atouts, car je m'efforce constamment d'assurer la cohérence, 
+                    la précision et la fiabilité dans toutes mes activités. J’aime naviguer entre les mathématiques 
+                    et l’informatique. Mon esprit critique me permet de développer de solides compétences en résolution 
+                    de problèmes et une adaptation au changement.
+                  </li>
+                  <li>
+                    <h3>- Intelligence émotionnelle - </h3>
+                    <p class="p-spacer-under"></p>
+                    Je suis quelqu'un d'empathique, sympathique et toujours optimiste. 
+                    J’ai la capacité à faire des choix et à passer à l’action, en mettant en 
+                    place des solutions de façon objective et en réfléchissant avant d’agir
+                  </li>
+                </ul>
+              </div>
+              <div class="box_style about_p hidden" id="about_hobbies_p">
+                <div class="container-fluid">
+                  <div class="row">
+                    <h3>- Jouer au basket -</h3>
+                    <p></p>
+                    <p class="p-spacer-under">
+                      Le basket-ball est bien plus qu'un simple sport : il m'offre une évasion, 
+                      une liberté et une joie incomparables. Chaque dribble et chaque panier 
+                      représentent une opportunité de m'évader. Le basket est pour moi synonyme 
+                      d’équilibre vital. L’effort collectif, le goût du spectacle et la stratégie 
+                      d’équipe nous ont permis, à mon équipe et à moi, de gagner de nombreux matchs !
+                    </p>
+                  </div>
+                  <div class="row">
+                    <h3>- Voyager -</h3>
+                    <p class="p-spacer-under">
+                      J’aime voyager ! Chaque destination m'offre une 
+                      nouvelle aventure, une nouvelle perspective, une beauté unique 
+                      à découvrir, et un enrichissement culturel inestimable !
+                    </p>
+                  </div>
+                  <div class="row">
+                    <h3>- Les échecs -</h3>
+                    <p>
+                      J'ai appris les échecs avec mon grand-père, 
+                      qui m'a transmis sa passion pour ce jeu. Chaque partie est un 
+                      moment de partage et de réflexion où je peux exercer ma concentration 
+                      ainsi que ma créativité.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Competences -->
+      <section class="screen">
+        <div class="screen clipRectangles" id="competencesScreen">
+          <div class="spacermenu"></div>
+          <h1 class="h1WhiteBefAft sectionTitle h1-spacer-under">
+            Compétences
+          </h1>
+          <div class="screenCenterContent container-fluid max-w-1400">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="competencesCard">
+                  <div class="competencesCard-header">
+                    <h2><a href="ressources/images/download/Exploiter.pdf">Exploiter</a></h2>
+                  </div>
+                  <div>
+                    <div class="progressContainer">
+                      <p class="progressLabel">Comptabilité: <p class="p-spacer-under">- Maîtrise des outils comptables</p></p>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 100%;"
+                          aria-valuenow="100"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          85 %
+                        </div>
+                      </div>
+                    </div>
+                    <div class="progressContainer">
+                      <p class="progressLabel">Fiscalité:<p class="p-spacer-under">- Application des mécanismes fiscaux</p></p>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 100%;"
+                          aria-valuenow="100"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          80 %
+                        </div>
+                      </div>
+                    </div>
+                    <div class="progressContainer">
+                      <p class="progressLabel">Outils Mathématiques de Gestion:<p class="p-spacer-under">- Utilisation des techniques mathématiques</p></p>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 100%;"
+                          aria-valuenow="100"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          95 %
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="competencesCard">
+                  <div class="competencesCard-header">
+                    <h2><a href="ressources/images/download/Piloter.pdf">Piloter</a></h2>
+                  </div>
+                  <div>
+                    <div class="progressContainer">
+                      <p class="progressLabel">Expression, Communication et Culture Générale:<p class="p-spacer-under">- Établir des relations de qualité</p>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 100%;"
+                          aria-valuenow="100"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          75 %
+                        </div>
+                      </div>
+                    </div>
+                    <div class="progressContainer">
+                      <p class="progressLabel">Anglais appliqué aux affaires:<p class="p-spacer-under">- Gérer relations internationales professionnelles</p>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 100%;"
+                          aria-valuenow="100"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          80 %
+                        </div>
+                      </div>
+                    </div>
+                    <div class="progressContainer">
+                      <p class="progressLabel">Démarche portfolio:<p class="p-spacer-under">- Réflexion et présentation du parcours</p>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 100%;"
+                          aria-valuenow="100"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          80 %
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Qualifications -->
+      <section class="screen" id="qualificationsScreen">
+        <div class="spacermenu"></div>
+        <h1 class="sectionTitle">Diplômes</h1>
+        <div id="qualifContent">
+          <span class="timeLine"></span>
+          <div class="qualif fade-in-out">
+            <h2>Master en Finance</h2>
+            <span class="portfolioCard-spacer"></span>
+            <div class="qualifText">
+              <p>Mastère spécialisé en finance (bac +5)</p>
+              <p>.</p>
+            </div>
+            <p class="qualifDate">2026 - 2027</p>
+          </div>
+          <div class="qualif fade-in-out">
+            <h2>Licence CCA + Ecole 42</h2>
+            <span class="portfolioCard-spacer"></span>
+            <div class="qualifText">
+              <p>Licence Comptabilité, Contrôle, Audit (bac +3)</p>
+              <p>Université Paris 1, Panthéon Sorbonne</p>
+            </div>
+            <p class="qualifDate">2025 - 2026</p>
+          </div>
+          <div class="qualif fade-in-out">
+            <h2>DUT en Gestion des Entreprises et des Administrations</h2>
+            <span class="portfolioCard-spacer"></span>
+            <div class="qualifText">
+              <p>Diplôme Universitaire de Technologie (bac +2)</p>
+              <p>Université Sorbonne Paris Nord, Paris</p>
+            </div>
+            <p class="qualifDate">2023 - 2025</p>
+          </div>
+          <div class="qualif fade-in-out">
+            <h2>Baccalauréat</h2>
+            <span class="portfolioCard-spacer"></span>
+            <div class="qualifText">
+              <p>
+                Diplôme spécialisé en Maths et Sciences Economiques et Sociales
+              </p>
+              <p>Options : Maths expert</p>
+              <p>Lycée Bilingues de Lyon Ombrosa</p>
+            </div>
+            <p class="qualifDate">2022 - 2023</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section class="screen">
+        <div class="screen clipRectangles" id="portfolioScreen">
+          <div class="spacermenu"></div>
+          <h1 class="h1WhiteBefAft sectionTitle">Projets professionnels</h1>
+          <div class="container-fluid">
+            <div class="row">
+              <nav class="btn_nav" id="portfolioNav">
+                <ul>
+                  <li
+                    data-nw-id-target="portfolioPro"
+                    data-nw-classGroup="portfolioGroup"
+                    class="js_show_btn selected_btn portfolioPro"
+                  >
+                    Projets professionnels
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div
+              class="row hidden portfolioGroup screenCenterContent max-w-1400"
+              id="portfolioPerso"
+            >
+              <div class="col-md col-sm">
+                <div class="portfolioCard">
+                  <div class="portfolioCard-header">
+                    <h2>La Toquerie</h2>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                  <div class="portfolioCard-content">
+                    <div class="flip-image">
+                      <img
+                        src="../ressources/images/Toquerie.svg"
+                        alt="Image représentation de la Toquerie"
+                      />
+                    </div>
+                    <div class="flip-content">
+                      <div>
+                        <p class="p-spacer-under">En cours de développement</p>
+                        <p class="p-spacer-under">
+                          Un projet ayant pour but d'apprendre les bonnes
+                          pratiques pour le développement d'une API Laravel et
+                          d'un client Angular.
+                        </p>
+                        <p>
+                          L'idée de ce projet se résume en un site permettant de
+                          trouver des recettes, convenant à différents critères.
+                          Il sera aussi possible de partager des recettes avec
+                          un groupe d'utilisateurs, comme pour le partage de
+                          recettes familiales, permettant ainsi la création de
+                          livre de recettes numériques.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                </div>
+              </div>
+              <div class="col-md col-sm">
+                <div class="portfolioCard">
+                  <div class="portfolioCard-header">
+                    <h2>Portfolio v2</h2>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                  <div class="portfolioCard-content">
+                    <div class="flip-image">
+                      <img
+                        src="../ressources/images/portfolio2.PNG"
+                        alt="Image représentation de ce portfolio"
+                      />
+                    </div>
+                    <div class="flip-content">
+                      <div>
+                        <p class="p-spacer-under">
+                          Toujours en cours de développement
+                        </p>
+                        <p class="p-spacer-under">
+                          Un nouveau portfolio totalement responsive, grâce
+                          auquel j'ai appris à utiliser BootStrap.
+                        </p>
+                        <p class="p-spacer-under">
+                          Le deuxième but de ce portfolio était de créer une
+                          maquette sur AdobeXD puis réaliser le plus fidèlement
+                          possible le site.
+                        </p>
+                        <p class="p-spacer-under">
+                          Enfin, ce site m'a permis de mettre en place un
+                          système multilingue. Mais aussi de gérer son
+                          référencement.
+                        </p>
+                        <p>
+                          <a
+                            href="https://xd.adobe.com/view/75b20a3e-01e2-49a2-a859-fcd523e37cd0-20e1/"
+                            rel="noopener"
+                            target="_blank"
+                            >- Voir la maquette -</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                </div>
+              </div>
+              <div class="col-md col-sm">
+                <div class="portfolioCard">
+                  <div class="portfolioCard-header">
+                    <h2>Etu'Cuisine</h2>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                  <div class="portfolioCard-content">
+                    <div class="flip-image">
+                      <img
+                        src="../ressources/images/etucuisine.PNG"
+                        alt="Image représentation d'Etu'cuisine"
+                      />
+                    </div>
+                    <div class="flip-content">
+                      <div>
+                        <p class="p-spacer-under">11/2019</p>
+                        <p class="p-spacer-under">
+                          Mon tout premier projet, un site répertoriant
+                          plusieurs recettes pour les étudiants en lien avec une
+                          base de données.
+                        </p>
+                        <p class="p-spacer-under">
+                          Ce site à servit à apprendre à concevoir une base de
+                          donnée et à l'utiliser avec PHP.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row portfolioGroup screenCenterContent max-w-1400"
+              id="portfolioPro"
+            >
+              <div class="col-md col-sm">
+                <div class="portfolioCard">
+                  <div class="portfolioCard-header">
+                    <h2>Stage Essor Conseils</h2>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                  <div class="portfolioCard-content">
+                    <div class="flip-image">
+                      <img
+                        id="infomaniakPic"
+                        src="ressources/images/essor.png"
+                        alt="Image représentation logo Essor Conseils"
+                      />
+                    </div>
+                    <div class="flip-content">
+                      <div>
+                        <p class="p-spacer-under">01/04/2024 - 01/05/2024</p>
+                        <p class="p-spacer-under">Compétences acquise :</p>
+                        <p></p>
+                        <p class="p-spacer-under">
+                          - Enregistrement des opérations comptables,
+                          garantissant ainsi l'intégrité des données
+                          financières.
+                        </p>
+                        <p class="p-spacer-under">
+                          - Traitement des factures, en assurant leur
+                          vérification, validation et enregistrement dans les
+                          systèmes comptables.
+                        </p>
+                        <p class="p-spacer-under">
+                          - Suivi des évolutions légales et réglementaires des
+                          entreprises.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                </div>
+              </div>
+              <div class="col-md col-sm">
+                <div class="portfolioCard">
+                  <div class="portfolioCard-header">
+                    <h2>Agent administratif RTE</h2>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                  <div class="portfolioCard-content">
+                    <div class="flip-image">
+                      <img
+                        id="infomaniakPic"
+                        src="ressources/images/rte.png"
+                        alt="Image représentation logo rte"
+                      />
+                    </div>
+                    <div class="flip-content">
+                      <div>
+                        <p class="p-spacer-under">01/08/2023 - 31/08/2023</p>
+                        <p class="p-spacer-under">Compétences acquise :</p>
+                        <p class="p-spacer-under">
+                          - Archivage documents, logiciel DOKI
+                        </p>
+                        <p class="p-spacer-under">
+                          - Créer un plan de classement dans le répertoire
+                          expertise
+                        </p>
+                        <p class="p-spacer-under">- Maîtrise Avancée d'Excel</p>
+                        <p class="p-spacer-under">
+                          - Intégration et Synchronisation de Données
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                </div>
+              </div>
+              <div class="col-md col-sm">
+                <div class="portfolioCard">
+                  <div class="portfolioCard-header">
+                    <h2>Stage HCL (Servie biomédical)</h2>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                  <div class="portfolioCard-content">
+                    <div class="flip-image">
+                      <img
+                        id="infomaniakPic"
+                        src="ressources/images/HCL.png"
+                        alt="Image représentation logo HCL"
+                      />
+                    </div>
+                    <div class="flip-content">
+                      <div>
+                        <p class="p-spacer-under">14/06/2021 - 17/06/2021</p>
+                        <p class="p-spacer-under">Compétences acquise :</p>
+                        <p class="p-spacer-under">
+                          - Découverte de l’Hôpital Neuologie et cardiologies.
+                        </p>
+                        <p></p>
+                        <p class="p-spacer-under">
+                          -Utilisation et application de l'outil GMAO (gestion
+                          de maintenance assistée par ordinateur).
+                        </p>
+                        <p></p>
+                        <p class="p-spacer-under">
+                          - Etiquetages des équipements puis saisie sur GMAO.
+                        </p>
+                        <p>
+                          <a
+                            href="ressources/images/download/eliasfinal.pdf"
+                            rel="noopener"
+                            target="_blank"
+                            >- Aller voir mon rapport -</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                </div>
+              </div>
+              <!-- <div class='col-md col-sm'>
+	  					<div class='portfolioCard'>
+	  						<div class='portfolioCard-header'>
+	  							<h2></h2>
+	  						</div>
+	  						<span class='portfolioCard-spacer'></span>
+	  						<div class='portfolioCard-content'>
+	  							<div class="flip-image">
+	  								<img src="../ressources/images/tripadAlike.png" alt="">
+	  							</div>
+	  							<div class="flip-content">
+	  								<div>
+		  								<p class="p-spacer-under">10/2020</p>
+		  								<p class="p-spacer-under"></p>
+		  								<p></p>
+	  								</div>
+	  							</div>
+	  						</div>
+	  						<span class='portfolioCard-spacer'></span>
+	  						<div class='portfolioCard-footer'>
+	  							<ul class='portfolioCard-footer-list'>
+	  								<li class='phpCaps'>Laravel</li>
+	  								<li class='wpCaps'>Scrum</li>
+	  							</ul>
+	  						</div>
+	  					</div>
+	  				</div> -->
+              <div class="col-md col-sm">
+                <div class="portfolioCard">
+                  <div class="portfolioCard-header">
+                    <h2>Animateur Adapei 69</h2>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                  <div class="portfolioCard-content">
+                    <div class="flip-image">
+                      <img
+                        id="infomaniakPic"
+                        src="ressources/images/adapei.png"
+                        alt="Image représentation logo adapei69"
+                      />
+                    </div>
+                    <div class="flip-content">
+                      <div>
+                        <p class="p-spacer-under">01/2022 - 01/2023</p>
+                        <p class="p-spacer-under">Compétences acquise :</p>
+                        <p class="p-spacer-under">
+                          - Organisme de soutien et de services aux personnes
+                          handicapées
+                        </p>
+                        <p class="p-spacer-under">
+                          - Notre mission était de promouvoir leur inclusion
+                          sociale et de les divertir
+                        </p>
+                        <p class="p-spacer-under">
+                          - Compétences relationnelles et organisationnelles
+                          (travail en équipe, gestion de conflits et
+                          planification d'événements)
+                        </p>
+                        <p>
+                          <a
+                            href="https://www.adapei69.fr/accompagner-le-handicap/alova-loisirs-adaptes"
+                            rel="noopener"
+                            target="_blank"
+                            >- Aller voir -</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="portfolioCard-spacer"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- References -->
+      <section class="screen" id="referencesScreen">
+        <div class="spacermenu"></div>
+        <h1 class="sectionTitle">Parcours réflectif</h1>
+        <!-- div
+          id="ref_content"
+          class="max-w-1400 container-fluid screenCenterContent"-->
+
+        <div class="row">
+          <p class="EVANBOSS">
+            Il est fascinant de réfléchir sur mon parcours et de voir comment
+            mes intérêts se sont façonnés au fil du temps. La comptabilité est
+            entrée dans ma vie comme une révélation, offrant un univers où tout
+            semblait s'emboîter parfaitement. La logique inhérente à la
+            comptabilité m'a captivé dès le début, tandis que l'étude de la
+            fiscalité a élargi mes horizons en me permettant de mieux
+            appréhender le fonctionnement des entreprises. Cependant, au milieu
+            de cette passion grandissante pour le management, j'ai réalisé que
+            les ressources humaines ne suscitaient pas le même enthousiasme en
+            moi. Bien que je comprenne leur importance, mon cœur bat davantage
+            pour les chiffres et les processus organisés. C'est là que je me
+            sens le plus à l'aise et le plus épanoui. Ce n'était pas seulement
+            une question de chiffres, mais aussi de comprendre comment les
+            entreprises prennent des décisions financières cruciales. Cette
+            compréhension m'a inspiré à vouloir un jour lancer ma propre
+            entreprise, sachant que je possède les outils nécessaires pour
+            naviguer dans le monde complexe de la gestion financière. Pourtant,
+            mon parcours ne s'est pas arrêté là. Avec le temps, j'ai réalisé que
+            mon intérêt pour l'analyse et l'organisation était encore plus
+            profond. L'étude du management, en particulier les théories
+            fondamentales comme celles de Ford, a élargi ma perspective sur la
+            façon dont les entreprises sont structurées et gérées. C'est comme
+            si chaque pièce du puzzle trouvait enfin sa place.
+          </p>
+          <!-- <div class="col-sm ref_side">
+              <div class="pic_container Itemcenter">
+                <div class="picContent">
+                  <span class="pic_back pic_element"></span>
+                  <div id="first_ref_pic" class="pic_element"></div>
+                </div>
+              </div>
+              <div class="ref_description Itemcenter">
+                <h2>Difficultés durant mon parcours</h2>
+                <p>......</p>
+                <p>....</p>
+                
+                
+              </div>
+            </div>
+            <div class="col-sm ref_side">
+              <div class="pic_container Itemcenter">
+                <div class="picContent">
+                  <span class="pic_back pic_element"></span>
+                  <div id="scdn_ref_pic" class="pic_element"></div>
+                </div>
+              </div>
+              <div class="ref_description Itemcenter">
+                <h2>....</h2>
+                <p>.....</p>
+                <p>....</p>
+              </div>
+            </div>
+          </div>-->
+        </div>
+
+        <section class="screen">
+          <div class="screen clipUpRectangle" id="contactScreen">
+            <div class="spacermenu"></div>
+            <h1 class="sectionTitle">Me contacter</h1>
+            <div class="container-fluid screenCenterContent max-w-1400">
+              <div class="row">
+                <div class="col text-center" id="getintouch">
+                  <p>
+                    Un projet ? En plein recrutement ? Envie de dire bonjour ?
+                  </p>
+                  <p>N'hésitez plus, entrons en contact !</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <a
+                    class="contact_caps_a"
+                    rel="noopener"
+                    href="https://fr.linkedin.com/in/elias-kirouani-ba977a270"
+                    target="_blank"
+                  >
+                    <div class="contact_caps clickableBtn">
+                      <img
+                        class="contact_caps_pic"
+                        src="ressources/images/link.png"
+                        alt="LinkedIn icon"
+                      />
+                      <p class="contact_caps_p">Elias Kirouani</p>
+                    </div>
+                  </a>
+                  <a
+                    class="contact_caps_a"
+                    href="ressources/images/download/CV.pdf"
+                    target="_blank"
+                  >
+                    <div class="contact_caps clickableBtn">
+                      <img
+                        class="contact_caps_pic"
+                        src="ressources/images/download.png"
+                        alt="Download icon"
+                      />
+                      <p class="contact_caps_p">Téléchargez ici mon CV</p>
+                    </div>
+                    <div class="contact_caps clickableBtn">
+                      <img
+                        class="contact_caps_pic"
+                        src="ressources/images/mail.png"
+                        alt="Email icon"
+                      />
+                      <a href="mailto:e.kirouani@gmail.com">Email me</a>
+                    </div>
+                    <div class="contact_caps clickableBtn">
+                      <img
+                        class="contact_caps_pic"
+                        src="ressources/images/phone.png"
+                        alt="télephone icone"
+                      />
+                      <a>07 67 21 27 76</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="../ressources/bootstrap/js/bootstrap.js"></script>
+        <script src="main.js?1"></script>
+        <script src="mail.js"></script>
+      </section>
+    </main>
+  </body>
+</html>
